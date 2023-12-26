@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ProjectFactorial.srcs/sources_1/new/Comparator.v" \
+"../../../../ProjectFactorial.srcs/sources_1/new/Counter.v" \
+"../../../../ProjectFactorial.srcs/sources_1/new/FactControlpath.v" \
+"../../../../ProjectFactorial.srcs/sources_1/new/FactDatapath.v" \
+"../../../../ProjectFactorial.srcs/sources_1/new/FactorialModule.v" \
+"../../../../ProjectFactorial.srcs/sources_1/new/Multiplexer.v" \
+"../../../../ProjectFactorial.srcs/sources_1/new/Multiplier.v" \
+"../../../../ProjectFactorial.srcs/sources_1/new/Register.v" \
+"../../../../ProjectFactorial.srcs/sim_1/new/FactTestBench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

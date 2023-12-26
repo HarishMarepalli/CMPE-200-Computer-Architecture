@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/adder.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/alu.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/control_unit/auxdec.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/control_unit/controlunit.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/datapath.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/memory/dmem.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/dreg.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/memory/imem.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/control_unit/maindec.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/mips/mips.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/mips/mips_top.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/mux2.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/regfile.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/signext.v" \
+"../../../../../../Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/testbench/tb_mips_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

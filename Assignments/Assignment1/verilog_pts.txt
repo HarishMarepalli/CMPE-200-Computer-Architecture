@@ -1,0 +1,5 @@
+GT_Fact GRT1
+GT_Input GRT12
+
+D0 - inp1
+D1 - inp2

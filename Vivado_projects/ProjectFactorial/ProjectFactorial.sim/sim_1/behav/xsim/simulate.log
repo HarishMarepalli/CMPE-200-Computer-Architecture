@@ -1,0 +1,19 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Factorial Test Starts Here
+1! = 1
+2! = 2
+3! = 6
+4! = 24
+5! = 120
+6! = 720
+7! = 5040
+8! = 40320
+9! = 362880
+10! = 3628800
+11! = 39916800
+12! = 479001600
+Error received, input = 13
+Error received, input = 14
+Test Complete
+$finish called at time : 20400 ns : File "G:/HarishMarepalli/200/Vivado_projects/ProjectFactorial/ProjectFactorial.srcs/sim_1/new/FactTestBench.v" Line 73
